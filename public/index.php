@@ -6,4 +6,8 @@ $hello = new App\Wcs\Hello();
 
 var_dump($hello);
 
-echo $hello->talk();
+echo $hello->talk() . PHP_EOL . '<br>';
+
+$exo = new HelloWorld\SayHello();
+
+echo $exo->world();
